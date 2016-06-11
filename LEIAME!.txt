@@ -1,0 +1,25 @@
+O app.config do DB1.Domain e DB1.Test e o web.config da DB1.Api 
+
+Estão apontando para uma instancia local, que nomiei como "InstanciaLocal", ja era uma instancia que tinha em minha maquina e decidi usá-la para agilizar.
+
+<connectionStrings>
+    <add name="conexao" connectionString="Data Source=.\InstanciaLocal; Initial Catalog=DB1; Integrated Security = true;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+Troque a connectionString para qualquer uma de sua escolha e execute os testes, os mesmos podem ser executados diversas vezes. 
+
+Foi criado uma playlist para a sequencia dos testes, que limpa a base ao iniciar,faz uma carga inicial e aplica os testes.
+
+Enviei junto alguns prints de tela, evidenciando os testes realizados do WebApi usando o POSTMAN, entre outros prints mostrando outras funcionalidades.
+
+Pelo quesito de tempo, não pude aplicar uma autenticação ao WebAPi.
+
+Trabalhei em cima do Entity Framework Code First versão 5.0.0.0
+
+Gostaria de também aplicar um micro-ORM que uso muito chamado Dapper ( http://www.infoworld.com/article/3025784/application-development/how-to-work-with-dapper-in-c.html ).
+
+Geralmente em arquiteturas que monto, gosto de trabalhar com CodeFirst para modelar a base e Dapper no Dominio.
+
+
+
+Espero que gostem!!
