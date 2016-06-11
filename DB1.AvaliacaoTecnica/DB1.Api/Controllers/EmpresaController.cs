@@ -48,9 +48,6 @@ namespace DB1.Api.Controllers
             return _repositorioEmpresa.Relatorio();
         }
 
-        
-       
-
         // GET: api/Empresa/5
         public string Get(int id)
         {

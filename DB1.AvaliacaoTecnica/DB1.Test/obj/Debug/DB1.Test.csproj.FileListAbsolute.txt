@@ -20,14 +20,3 @@ C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Test\bin\D
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.csprojResolveAssemblyReference.cache
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.dll
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.pdb
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\DB1.Test.dll.config
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\DB1.Test.dll
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\DB1.Test.pdb
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\DB1.Domain.dll
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\EntityFramework.dll
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\System.Data.SqlServerCe.dll
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\DB1.Domain.pdb
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\bin\Debug\EntityFramework.xml
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.csprojResolveAssemblyReference.cache
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.dll
-C:\DB1\DB1.AvaliacaoTecnica\DB1.Test\obj\Debug\DB1.Test.pdb

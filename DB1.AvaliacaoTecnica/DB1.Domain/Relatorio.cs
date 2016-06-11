@@ -17,6 +17,5 @@ namespace DB1.Domain
         public string NomeCandidato { get; set; }
 
         public List<String> Tecnologias { get; set; }
-
     }
 }
