@@ -16,28 +16,14 @@ namespace DB1.Api.Controllers
 {
     public class EmpresaController : ApiController
     {
-        #region "Repositorios"
+        #region "Repositorio"
         private IEmpresa _repositorioEmpresa;
-        private IInscricao _repositorioInscricao;
-        private ICandidato _repositorioCandidato;
-        private ITecnologia _repositorioTecnologia;
-        private IRel_Candidato_Tecnologia _repositorioRel_Candidato_Tecnologia;
-        private IRel_Empresa_Tecnologia _repositorioRel_Empresa_Tecnologia;
         #endregion
 
         #region "Injetando as depencias"
-        public EmpresaController(IEmpresa repositorioEmpresa,
-            IInscricao repositorioInscricao, ICandidato repositorioCandidato,
-            ITecnologia repositorioTecnologia,
-            IRel_Candidato_Tecnologia repositorioRel_Candidato_Tecnologia,
-            IRel_Empresa_Tecnologia repositorioRel_Empresa_Tecnologia)
+        public EmpresaController(IEmpresa repositorioEmpresa)
         {
             _repositorioEmpresa = repositorioEmpresa;
-            _repositorioInscricao = repositorioInscricao;
-            _repositorioCandidato = repositorioCandidato;
-            _repositorioTecnologia = repositorioTecnologia;
-            _repositorioRel_Candidato_Tecnologia = repositorioRel_Candidato_Tecnologia;
-            _repositorioRel_Empresa_Tecnologia = repositorioRel_Empresa_Tecnologia;
         }
         #endregion
 
