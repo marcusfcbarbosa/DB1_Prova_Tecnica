@@ -1,0 +1,31 @@
+﻿<div ng-controller="listarController">
+    <p>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th width="90">ID</th>
+                                <th>Login</th>
+                                <th>Ver detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="usuario in TodosUsuarios">
+                                <td>{{ usuario.id }}</td>
+                                <td>{{ usuario.login }}</td>
+                                <td>
+                                    <a href="/Usuario/{{usuario.id}}">
+                                        <i class="glyphicon glyphicon-eye-open">
+                                        </i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </p>
+</div>

@@ -1,0 +1,8 @@
+C:\Drive\DB1\Avaliação Técnica\Solution\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\DB1.AvaliacaoTecnica.Console.exe.config
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\DB1.AvaliacaoTecnica.Console.exe.config
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\DB1.AvaliacaoTecnica.Console.exe
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\DB1.AvaliacaoTecnica.Console.pdb
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\Ninject.dll
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\bin\Debug\Ninject.xml
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\obj\Debug\DB1.AvaliacaoTecnica.Console.exe
+C:\Users\marcus\Downloads\Prova .NET\parte 4\DB1.AvaliacaoTecnica\DB1.AvaliacaoTecnica.Console\obj\Debug\DB1.AvaliacaoTecnica.Console.pdb

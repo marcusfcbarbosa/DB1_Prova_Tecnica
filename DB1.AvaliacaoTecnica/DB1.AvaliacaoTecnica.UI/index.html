@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html ng-app='db1.avaliacao.tecnica'>
+<head>
+    <title>DB1 Global Software - Avaliação Técnica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <base href="/Index.html" />
+    <link href="/resources/icons/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Avaliação Técnica DB1
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" ng-controller="IndexController">
+        <div class="row">
+            <ul>
+                <li>
+                    <a href="/">Index</a>
+                </li>
+                <li>
+                    <a href="Listar">Lista de Usuarios</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ng-view></ng-view>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery/jquery-2.2.2.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular/angular-route.js"></script>
+    <script src="app/indexController.js"></script>
+</body>
+</html>
