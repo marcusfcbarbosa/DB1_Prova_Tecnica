@@ -14,3 +14,11 @@ C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Domain\bin
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.csprojResolveAssemblyReference.cache
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.dll
 C:\Users\marcus\Downloads\Prova .NET\parte 5\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.pdb
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\bin\Debug\DB1.Domain.dll.config
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\bin\Debug\DB1.Domain.dll
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\bin\Debug\DB1.Domain.pdb
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\bin\Debug\EntityFramework.dll
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\bin\Debug\EntityFramework.xml
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.csprojResolveAssemblyReference.cache
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.dll
+C:\DB1\DB1.AvaliacaoTecnica\DB1.Domain\obj\Debug\DB1.Domain.pdb

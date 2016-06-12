@@ -11,17 +11,6 @@ Troque a connectionString para qualquer uma de sua escolha e execute os testes, 
 
 ########################################
 
-Foi criado uma playlist para a sequencia dos testes, que limpa a base ao iniciar,faz uma carga inicial e aplica os testes.
-
-Trabalhei em cima do Entity Framework Code First versão 5.0.0.0
-
-########################################
-
-Para a documentação dos serviços, uso o apiary, uma boa ferramenta de documentação de aplicações RESTFULL 
-
-https://apiary.io/
-
-
 Documentação do WebApi usado na tarefa
 
 http://docs.db11.apiary.io/#reference
