@@ -21,6 +21,8 @@ namespace DB1.Api
             settings.Formatting = Formatting.Indented;
             //Convert propriedades em Minusculo
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            //Definindo uma rota para chamada do Controller
+            config.EnableCors();
 
 
             config.MapHttpAttributeRoutes();

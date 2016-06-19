@@ -11,9 +11,13 @@ using System.Web.Http.Dependencies;
 using Ninject;
 using Ninject.Syntax;
 using Ninject.Web.Common;
+using System.Web.Http.Cors;
 
 namespace DB1.Api.Controllers
 {
+
+    [EnableCors(origins:"*",headers:"*",methods:"*")]
+    [RoutePrefix("ap1/v1/public")]
     public class EmpresaController : ApiController
     {
         #region "Repositorio"
@@ -27,32 +31,49 @@ namespace DB1.Api.Controllers
         }
         #endregion
 
-
-        // GET: api/Empresa
+        [HttpGet]
+        [Route("empresas")]
         public Relatorio Get()
         {
             return _repositorioEmpresa.Relatorio();
         }
 
-        // GET: api/Empresa/5
-        public string Get(int id)
+        [HttpGet]
+        [Route("retorna/{id}")]
+        public HttpResponseMessage Insere(int id)
         {
-            return "value";
+            try {
+
+                Empresa emp = new Empresa();
+                if (id == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, emp);
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, emp);
+
+            }catch(Exception ex){
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, "Falha");
+            }
         }
 
-        // POST: api/Empresa
-        public void Post([FromBody]string value)
+        [HttpPost]
+        [Route("atualiza/{empresa}")]
+        public void Post([FromBody]Empresa empresa)
         {
+
+
         }
 
-        // PUT: api/Empresa/5
+        
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Empresa/5
+        [HttpDelete]
+        [Route("delete/{id}")]
         public void Delete(int id)
         {
+
         }
     }
 }
