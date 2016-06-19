@@ -24,8 +24,6 @@ namespace DB1.Domain.Entities
         /// </summary>
         public virtual Tecnologia Tecnologia { get; set; }
 
-
-
         /// <summary>
         /// FK Candidato
         /// </summary>
@@ -35,7 +33,6 @@ namespace DB1.Domain.Entities
         /// Propriedade de navegação
         /// </summary>
         public virtual Candidato Candidato { get; set; }
-
 
     }
 }

@@ -17,7 +17,6 @@ namespace DB1.Api
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            
         }
     }
 }

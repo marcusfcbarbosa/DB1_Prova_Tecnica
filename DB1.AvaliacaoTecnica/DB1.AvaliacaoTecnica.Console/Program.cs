@@ -26,40 +26,44 @@ namespace DB1.AvaliacaoTecnica.Console
             repositorio2 = kernal.Get<IExercicio2>();
             repositorio3 = kernal.Get<IExercicio3>();
             #endregion
-
             IniciaExercicios();
         }
         #endregion
         #region "Inicializa"
         static void IniciaExercicios()
         {
-            System.Console.Clear();
-            System.Console.WriteLine(" Digite 1 ,2 OU 3 para entrar nos exercicios (SOMENTE NUMEROS INTEIROS POSITIVOS)");
-            var answer = System.Console.ReadLine();
-            switch (Convert.ToInt32(answer))
+            try
             {
-                case 1:
-                    System.Console.Clear();
-                    repositorio1.Resolucao_Exercicio1();
-                    break;
-                case 2:
-                    System.Console.Clear();
-                    repositorio2.Resolucao_Exercicio2();
-                    break;
+                System.Console.Clear();
+                System.Console.WriteLine(" Digite 1 ,2 OU 3 para entrar nos exercicios (SOMENTE NUMEROS INTEIROS POSITIVOS)");
+                var answer = System.Console.ReadLine();
+                switch (Convert.ToInt32(answer))
+                {
+                    case 1:
+                        System.Console.Clear();
+                        repositorio1.Resolucao_Exercicio1();
+                        break;
+                    case 2:
+                        System.Console.Clear();
+                        repositorio2.Resolucao_Exercicio2();
+                        break;
 
-                case 3:
-                    System.Console.Clear();
-                    repositorio3.Resolucao_Exercicio3();
-                    break;
-                default:
-                    System.Console.WriteLine("Esse valor não foi fornecido (APERTE QUALQUER TECLA PARA VOLTAR)");
-                    System.Console.ReadKey();
-                    IniciaExercicios();
-                    break;
+                    case 3:
+                        System.Console.Clear();
+                        repositorio3.Resolucao_Exercicio3();
+                        break;
+                    default:
+                        System.Console.WriteLine("Esse valor não foi fornecido (APERTE QUALQUER TECLA PARA VOLTAR)");
+                        System.Console.ReadKey();
+                        IniciaExercicios();
+                        break;
+                }
+            }
+            catch {
+                IniciaExercicios();
             }
         }
         #endregion
-
 
         #region "Interfaces"
         interface IExercicio1
@@ -306,10 +310,7 @@ namespace DB1.AvaliacaoTecnica.Console
                                     break;
                             }
                         }
-
-
                     }
-
                 }
                 catch
                 {

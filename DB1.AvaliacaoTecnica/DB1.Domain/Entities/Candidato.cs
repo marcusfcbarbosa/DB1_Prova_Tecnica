@@ -42,6 +42,5 @@ namespace DB1.Domain.Entities
             }
             return false;
         }
-
     }
 }

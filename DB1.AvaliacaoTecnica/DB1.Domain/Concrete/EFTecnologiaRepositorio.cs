@@ -61,8 +61,6 @@ namespace DB1.Domain.Concrete
                db1Context.SaveChanges();
             }
         }
-
-
         
         /// <summary>
         /// 

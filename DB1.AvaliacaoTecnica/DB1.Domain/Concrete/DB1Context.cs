@@ -16,6 +16,9 @@ namespace DB1.Domain.Concrete
             : base("name=conexao")
         {
             Database.SetInitializer(new CreateDatabaseIfNotExists<DB1Context>());
+            //Configuration.LazyLoadingEnabled = true;
+            //Não cria o proxy
+            Configuration.ProxyCreationEnabled = false;
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

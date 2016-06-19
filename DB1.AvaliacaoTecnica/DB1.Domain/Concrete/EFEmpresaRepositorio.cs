@@ -74,8 +74,6 @@ namespace DB1.Domain.Concrete
         {
             return db1Context.Empresas.ToList();
         }
-        
-
 
         /// <summary>
         /// Busca com base no CNPJ

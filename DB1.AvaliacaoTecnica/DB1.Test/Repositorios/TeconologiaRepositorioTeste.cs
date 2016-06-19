@@ -8,7 +8,6 @@ using DB1.Domain.Entities;
 
 namespace DB1.Test.Repositorios
 {
-
     [TestClass]
     public class TeconologiaRepositorioTeste
     {
@@ -21,7 +20,6 @@ namespace DB1.Test.Repositorios
         /// contexto
         /// </summary>
         DB1Context contexto = new DB1Context();
-
         #endregion
 
         #region "Incializa Ambiente Para testes"
@@ -30,7 +28,6 @@ namespace DB1.Test.Repositorios
         {
             repositorioTecnologia = new EFTecnologiaRepositorio(contexto);
         }
-
              
         [TestMethod]
         public void LimparTecnologias()
@@ -193,7 +190,6 @@ namespace DB1.Test.Repositorios
         [ExpectedException(typeof(InvalidOperationException))]
         public void NaoPodeInserirTecnologiaComMesmaDescricaoTeste()
         {
-
             var tecnologiaInserir = new Tecnologia
             {
                 Data_Registro = DateTime.Now,
@@ -202,7 +198,6 @@ namespace DB1.Test.Repositorios
             };
             repositorioTecnologia.Inserir(tecnologiaInserir);
         }
-
         #endregion
     }
 }

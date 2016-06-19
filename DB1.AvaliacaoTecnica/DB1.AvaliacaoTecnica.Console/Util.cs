@@ -20,12 +20,10 @@ namespace DB1.AvaliacaoTecnica.Console
 
         public Util()
         {
-
             this.ListaExercicio2 = new List<Int32>();
             this.ListaExercicio3_1 = new List<Int32>();
             this.ListaExercicio3_2 = new List<Int32>();
         }
-
 
         public void EsvaziaLista()
         {

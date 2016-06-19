@@ -1,5 +1,4 @@
 ﻿using System;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -37,8 +36,5 @@ namespace DB1.Domain.Entities
         /// </summary>
         public virtual Empresa Empresa { get; set; }
 
-
     }
-
-
 }

@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
 namespace DB1.Domain.Entities
 {
     [Table("tbEmpresa")]
